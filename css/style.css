@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+body{
+	margin: 0;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.benner{
+	background-color: #ebebee;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.container{
+	width: 1345px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+h1{
+	margin: 0;
+	font-size: 100px;
+	color: #8d9dad;
+	max-width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1;
+	font-weight: 900;
+	margin-bottom: 25px;
+}
+p{
+	margin: 0; font-size: 20px;color: #8d9dad;line-height: 1.7;
+}
+.about-us{
+	padding:50px;
+	background: #ebebee;
+}
+.row{
+display: flex;
+flex-wrap: wrap;
+}
+
+.colomun-1{
+	padding: 20px;
+	flex-basis: 45%;
+	max-width: 45%;
+
+}
+
+.colomun-2{
+	padding: 20px;
+	flex-basis: 45%;
+	max-width: 45%;
+
+	
+}
+
+img{
+	max-width: 100%;}
+
+strong{
+    color: #8d9dad;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+h2{
+	color: #8d9dad;
+	font-size: 30px;
+
+}
+.img-1{
+ width: 300px;
+ border-radius: 15px ;
+ transform: translate(40px,40px);
+}
+.img-2{
+ width: 300px;
+ border-radius: 15px ;
+}
+}
+*{
+	box-sizing: border-box;
+}
